@@ -1,3 +1,8 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+</style>
+
+
 * {
     margin: 5;
     padding: 0;
@@ -17,9 +22,9 @@
   nav { 
     display: flex;
     width: 100%;
-    justify-content: center;
-    background-color: black;
     height: 100px;
+    justify-content: center;
+    background-color: black;    
     align-items: center;
   }
 
@@ -70,3 +75,13 @@
     color: #333;
     font-size: 18px;
   }
+
+  /*Practica css*/
+
+  .menu .active {
+    color: aqua;
+  }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
