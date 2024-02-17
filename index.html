@@ -106,7 +106,50 @@
     <br>
 
     <!-- SECCION FORMULARIO -->
+
+    <h1>CONTACTO</h1>
+
+    <form method="post" action="/send/">
+
+    <div>Nombre: <input name="nombre" /></div><br>
+    <div>Apellidos: <input name="apellido" /></div><br>
+
+    Edad:
+    <input type="number" value="0" min="10" max="50" /><br><br>
+
+    Género:
+    <select>
+      <option disabled selected>-Elige una opción-</option>
+      <option value="1">Femenino</option>
+      <option value="2">Masculino</option>
+      <option value="3">Otro</option>
+    </select><br><br>
+
+    Fecha de nacimiento
+    <input type="date" /> 
+    <br><br>
+       
+        Selecciona tus intereses:
+        <select>
+          <option disabled selected>-Elige una opción-</option>
+          <option value="1">Música</option>
+          <option value="2">Deporte</option>
+          <option value="3">Cine</option>
+          <option value="4">Lectura</option>
+          <option value="5">Fotografía</option>
+        </select>
+        <br><br>
     
+    <textarea  name="text"  cols="32"  rows="10"
+     placeholder="Escribenos un mensaje:"
+    ></textarea><br>
+    <br>
+
+    <input type="submit" value="Enviar formulario" />
+    <input type="reset" value="Borrar formulario" />
+
+    </form>
+    <br>
 
     <!-- SECCION TABLA REDES -->
     <!-- footer -->
